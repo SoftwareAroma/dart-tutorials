@@ -17,15 +17,16 @@ void main() {
   // - double - 12.34
 
   // explicit typing
-  var myString = 'Hello';
+  // var myString = 'Hello';
 
   // implicit typing
-  String name = "John Doe";
+  // String name = "John Doe";
   int age = 30;
   // age = "hskdfsl"; // error
   age = 30;
-  bool isMarried = false;
-  double height = 1.78;
+  print(age.runtimeType); // int
+  // bool isMarried = false;
+  // double height = 1.78;
   // print(height.runtimeType); // double
 
   // dynamic typing
